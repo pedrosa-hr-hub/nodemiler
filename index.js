@@ -11,8 +11,8 @@ let transporter = nodemailer.createTransport({
 });
 
 transporter.sendMail({
-     from: "Pedro de Sá <sahenriquepedro@hotmail.com>",
-     to: "pedro.trabalhos@outlook.com",
+     from: "Pedro de Sá <****@hotmail.com>",
+     to: "****@outlook.com",
      subject: "Esse é um teste",
      text: "Oi, eu acho que esse texto funcionou",
 }).then(message =>{
